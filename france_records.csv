@@ -1,0 +1,7 @@
+Customer_Name,Customer_ID,"Customer Open Date","Last Consulted Date","Vaccination Type","Doctor Consulted",State,Country,"Post Code","Date Of Birth","Active Customer"
+Brown,987654,2012-01-03,2012-02-03,MVD,Robert,Guinaa,France,654213,1975-12-12,A
+Charles,654321,2011-06-01,2012-02-03,MVD,Rose,Moyotte,France,785423,1986-08-05,A
+Joseph,854569,2009-12-12,2012-02-03,MVD,Rose,Martinique,France,542159,1987-05-06,A
+Mr.Bean,854123,2011-01-02,2012-02-03,MVD,Paul,Corse,France,641602,1979-08-26,A
+Prem,126581,2015-09-07,2012-02-03,MVD,Peter,Centre,France,325324,1985-02-08,A
+Rose,123789,2012-08-07,2012-02-03,MVD,Peter,Alsace,France,652651,1990-06-08,A

@@ -1,0 +1,5 @@
+Customer_Name,Customer_ID,"Customer Open Date","Last Consulted Date","Vaccination Type","Doctor Consulted",State,Country,"Post Code","Date Of Birth","Active Customer"
+Albert,548785,2014-05-07,2012-02-03,MVD,Robert,Hesse,Germany,656645,1994-08-08,A
+Antony,145879,2013-05-09,2012-02-03,MVD,Robert,Hamburg,Germany,658657,1984-07-06,A
+John,123459,2010-11-12,2012-02-03,MVD,Paul,Berlin,Germany,641548,1995-08-11,A
+Leo,123456,2011-06-07,2012-02-03,MVD,Paul,Bermen,Germany,754846,1994-12-12,A

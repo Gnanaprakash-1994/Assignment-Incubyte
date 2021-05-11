@@ -1,0 +1,73 @@
+Create Schema:
+
+CREATE SCHEMA `patients_record` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
+
+Table Creations:
+
+
+CREATE TABLE `patients_record`.`worldwide_records` (
+  `Customer_Name` VARCHAR(255) NOT NULL,
+  `Customer_ID` VARCHAR(18) NOT NULL,
+  `Customer Open Date` DATE NOT NULL,
+  `Last Consulted Date` DATE NOT NULL,
+  `Vaccination Type` CHAR(25) NOT NULL,
+  `Doctor Consulted` CHAR(25) NOT NULL,
+  `State` CHAR(25) NOT NULL,
+  `Country` CHAR(25) NOT NULL,
+  `Post Code` INT(5) NOT NULL,
+  `Date Of Birth` DATE NOT NULL,
+  `Active Customer` CHAR(1) NOT NULL,
+  PRIMARY KEY (`Customer_Name`));
+
+
+Insert Data into Rows :
+
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Robert', '123457', '20100406', '20120203', 'MVD', 'Paul', 'Alabama', 'USA', '789456', '19870201', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('James', '123458', '20100203', '20120203', 'MVD', 'Paul', 'TamilNamdu', 'India', '987654', '19880201', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('John', '123459', '20101112', '20120203', 'MVD', 'Paul', 'Berlin', 'Germany', '641548', '19950811', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Leo', '123456', '20110607', '20120203', 'MVD', 'Paul', 'Bermen', 'Germany', '754846', '19941212', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Jack', '123455', '20120609', '20120203', 'MVD', 'Robert', 'Karnataka', 'India', '123487', '19800502', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Rose', '123789', '20120807', '20120203', 'MVD', 'Peter', 'Alsace', 'France', '652651', '19900608', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Prakash', '124567', '20140907', '20120203', 'MVD', 'Paul', 'Kerala', 'India', '654653', '19820909', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Prem', '126581', '20150907', '20120203', 'MVD', 'Peter', 'Centre', 'France', '325324', '19850208', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Antony', '145879', '20130509', '20120203', 'MVD', 'Robert', 'Hamburg', 'Germany', '658657', '19840706', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Albert', '548785', '20140507', '20120203', 'MVD', 'Robert', 'Hesse', 'Germany', '656645', '19940808', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Babu', '654789', '20101206', '20120203', 'MVD', 'Peter', 'Colorado', 'USA', '621654', '19781205', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Alice', '254523', '20101111', '20120203', 'MVD', 'Peter', 'Arizona', 'USA', '785489', '19860501', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Stella', '126548', '20100306', '20120203', 'MVD', 'Robert', 'Florida', 'USA', '654852', '19880605', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Viswa', '654789', '20101012', '20120203', 'MVD', 'Rose', 'Jammu', 'India', '452369', '19810910', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Sandy', '325412', '20091012', '20120203', 'MVD', 'Rose', 'AndhraPradesh', 'India', '741123', '19960110', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Olive', '856746', '20100915', '20120203', 'MVD', 'Peter', 'Alaska', 'USA', '321896', '19980525', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Mr.Bean', '854123', '20110102', '20120203', 'MVD', 'Paul', 'Corse', 'France', '641602', '19790826', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Brown', '987654', '20120103', '20120203', 'MVD', 'Robert', 'Guinaa', 'France', '654213', '19751212', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Charles', '654321', '20110601', '20120203', 'MVD', 'Rose', 'Moyotte', 'France', '785423', '19860805', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Joseph', '854569', '20091212', '20120203', 'MVD', 'Rose', 'Martinique', 'France', '542159', '19870506', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Mercy', '741852', '20080507', '20120203', 'MVD', 'Robert', 'Telangana', 'India', '951687', '19791212', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Samson', '852963', '20100305', '20120203', 'MVD', 'Rose', 'Assam', 'India', '458741', '19780105', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Santa', '963321', '20110504', '20120203', 'MVD', 'Peter', 'Delhi', 'India', '789123', '19700501', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Bala', '852794', '20120608', '20120203', 'MVD', 'Rose', 'Hawaii', 'USA', '246865', '19760108', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Andy', '542135', '20120708', '20120203', 'MVD', 'Paul', 'Maine', 'USA', '452852', '19940807', 'A');
+INSERT INTO `patients_record`.`worldwide_records` (`Customer_Name`, `Customer_ID`, `Customer Open Date`, `Last Consulted Date`, `Vaccination Type`, `Doctor Consulted`, `State`, `Country`, `Post Code`, `Date Of Birth`, `Active Customer`) VALUES ('Sam', '794613', '20141108', '20120203', 'MVD', 'Peter', 'Georgia', 'USA', '451236', '19930925', 'A');
+
+To select Table in a database :
+
+SELECT * FROM patients_record.worldwide_records;
+
+To select particular table based on condition :
+
+SELECT * FROM patients_record.worldwide_records;
+WHERE Country = "India"
+
+To move selected table data to another table in same database :
+
+INSERT INTO patients_record.india_records:
+SELECT * FROM patients_record.worldwide_records;
+WHERE Country = "India"
+
+By using the above sql query we can easily separate the patients record based on country and put in a separate table.
+
+I imported the separated tables in CSV file format and read the file in python using pandas. I also attached the python coding as well as SQL query.
+
+I completed the assignment based on my knowledge.
+
+

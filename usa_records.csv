@@ -1,0 +1,9 @@
+Customer_Name,Customer_ID,"Customer Open Date","Last Consulted Date","Vaccination Type","Doctor Consulted",State,Country,"Post Code","Date Of Birth","Active Customer"
+Alice,254523,2010-11-11,2012-02-03,MVD,Peter,Arizona,USA,785489,1986-05-01,A
+Andy,542135,2012-07-08,2012-02-03,MVD,Paul,Maine,USA,452852,1994-08-07,A
+Babu,654789,2010-12-06,2012-02-03,MVD,Peter,Colorado,USA,621654,1978-12-05,A
+Bala,852794,2012-06-08,2012-02-03,MVD,Rose,Hawaii,USA,246865,1976-01-08,A
+Olive,856746,2010-09-15,2012-02-03,MVD,Peter,Alaska,USA,321896,1998-05-25,A
+Robert,123457,2010-04-06,2012-02-03,MVD,Paul,Alabama,USA,789456,1987-02-01,A
+Sam,794613,2014-11-08,2012-02-03,MVD,Peter,Georgia,USA,451236,1993-09-25,A
+Stella,126548,2010-03-06,2012-02-03,MVD,Robert,Florida,USA,654852,1988-06-05,A
